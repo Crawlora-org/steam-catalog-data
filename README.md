@@ -15,6 +15,18 @@ dataset is queryable live at `https://api.crawlora.net/api/v1/datasets/steam-gam
 |---|---|
 | `data/summary.json` | The full aggregate rollups behind the study — pricing by year, review-tier & price-tier distributions, top genres, ownership concentration (Pareto), platform-support trends by year, review sentiment by genre. |
 | `data/sample.jsonl` | 200 sample game records (top by owner estimate), one JSON object per line — the shape of the queryable dataset. |
+| `data/pricing-by-year.csv` | Titles, free-to-play share, median/mean paid price by release year (2006–2026). |
+| `data/platform-by-year.csv` | Native Linux and Mac support share by release year. |
+| `data/review-tiers.csv` | Games per Steam review tier (Overwhelmingly Positive … Very Negative). |
+| `data/genres.csv` | Games carrying each Steam genre tag (multi-tag; shares add past 100%). |
+| `data/categories.csv` | Games carrying each Steam category (Family Sharing, Single-player, …). |
+| `data/price-tiers.csv` | Games per list-price tier (free, under $5, … $30+). |
+| `data/release-years.csv` | Games per release year. |
+| `data/review-by-genre.csv` | Titles, median review score, free share per genre. |
+| `data/ownership-concentration.csv` | Owner share held by the top 1/5/10/25% of games. |
+
+The CSVs are flat cuts of the same rollups in `data/summary.json` — pick JSON for programmatic use,
+CSVs for a quick load into a spreadsheet or `pandas.read_csv`.
 
 ### Sample record fields
 
