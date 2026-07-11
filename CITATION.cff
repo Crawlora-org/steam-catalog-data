@@ -1,8 +1,25 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 title: "Steam Catalog Dataset — State of Steam 2026"
+type: dataset
 authors:
   - name: "Crawlora"
-year: 2026
-url: "https://github.com/Crawlora-org/steam-catalog-data"
+    website: "https://crawlora.net"
+repository-code: "https://github.com/Crawlora-org/steam-catalog-data"
+url: "https://crawlora.net/blog/state-of-steam-2026"
 license: CC-BY-4.0
+date-released: "2026-07-11"
+abstract: >-
+  Aggregates over the top 10,000 Steam games ranked by SteamSpy owner estimate,
+  enriched from the Steam storefront (snapshot 2026-07-11): owner concentration
+  (top 1% of games hold 32.9% of ~9.22B estimated owner-copies), price and
+  free-to-play trends by release year, native Mac/Linux support by year, Steam
+  review-tier distribution, and genre reach. Owner counts are SteamSpy banded
+  estimates midpointed to a number; storefront fields are exact.
+keywords:
+  - steam
+  - pc-gaming
+  - game-pricing
+  - steamspy
+  - dataset
+  - open-data
