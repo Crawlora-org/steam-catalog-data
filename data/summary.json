@@ -1,0 +1,751 @@
+{
+  "generatedFor": "State of Steam 2026",
+  "source": "Crawlora steam-games dataset (SteamSpy owner-ranked seed + Steam storefront appdetails)",
+  "license": "CC BY 4.0",
+  "totals": {
+    "games": 10000,
+    "freeToPlay": 2050,
+    "paid": 7950,
+    "totalEstimatedOwners": 9224025000,
+    "medianPaidPriceUsd": 6.99,
+    "meanPaidPriceUsd": 10.81,
+    "withMetacritic": 2802,
+    "linuxSupported": 2112,
+    "macSupported": 3177
+  },
+  "priceTierDist": [
+    {
+      "value": "under5",
+      "count": 3541
+    },
+    {
+      "value": "5to15",
+      "count": 2629
+    },
+    {
+      "value": "free",
+      "count": 2033
+    },
+    {
+      "value": "15to30",
+      "count": 1402
+    },
+    {
+      "value": "30to60",
+      "count": 368
+    },
+    {
+      "value": "over60",
+      "count": 27
+    }
+  ],
+  "reviewTierDist": [
+    {
+      "value": "very_positive",
+      "count": 4468
+    },
+    {
+      "value": "mixed",
+      "count": 2181
+    },
+    {
+      "value": "mostly_positive",
+      "count": 1733
+    },
+    {
+      "value": "overwhelmingly_positive",
+      "count": 872
+    },
+    {
+      "value": "insufficient",
+      "count": 281
+    },
+    {
+      "value": "positive",
+      "count": 268
+    },
+    {
+      "value": "mostly_negative",
+      "count": 159
+    },
+    {
+      "value": "negative",
+      "count": 29
+    },
+    {
+      "value": "overwhelmingly_negative",
+      "count": 8
+    },
+    {
+      "value": "very_negative",
+      "count": 1
+    }
+  ],
+  "topGenres": [
+    {
+      "value": "Indie",
+      "count": 5912
+    },
+    {
+      "value": "Action",
+      "count": 4825
+    },
+    {
+      "value": "Adventure",
+      "count": 4088
+    },
+    {
+      "value": "RPG",
+      "count": 2520
+    },
+    {
+      "value": "Casual",
+      "count": 2506
+    },
+    {
+      "value": "Strategy",
+      "count": 2498
+    },
+    {
+      "value": "Simulation",
+      "count": 2258
+    },
+    {
+      "value": "Free To Play",
+      "count": 1325
+    },
+    {
+      "value": "Massively Multiplayer",
+      "count": 576
+    },
+    {
+      "value": "Early Access",
+      "count": 568
+    },
+    {
+      "value": "Sports",
+      "count": 428
+    },
+    {
+      "value": "Racing",
+      "count": 372
+    },
+    {
+      "value": "Utilities",
+      "count": 87
+    },
+    {
+      "value": "Design & Illustration",
+      "count": 41
+    },
+    {
+      "value": "Animation & Modeling",
+      "count": 40
+    },
+    {
+      "value": "Video Production",
+      "count": 31
+    },
+    {
+      "value": "Game Development",
+      "count": 23
+    },
+    {
+      "value": "Web Publishing",
+      "count": 23
+    },
+    {
+      "value": "Education",
+      "count": 20
+    },
+    {
+      "value": "Software Training",
+      "count": 18
+    }
+  ],
+  "topCategories": [
+    {
+      "value": "Family Sharing",
+      "count": 9566
+    },
+    {
+      "value": "Single-player",
+      "count": 9076
+    },
+    {
+      "value": "Steam Achievements",
+      "count": 6751
+    },
+    {
+      "value": "Steam Cloud",
+      "count": 4981
+    },
+    {
+      "value": "Steam Trading Cards",
+      "count": 4390
+    },
+    {
+      "value": "Multi-player",
+      "count": 3690
+    },
+    {
+      "value": "Full controller support",
+      "count": 3533
+    },
+    {
+      "value": "Co-op",
+      "count": 2118
+    },
+    {
+      "value": "PvP",
+      "count": 1944
+    },
+    {
+      "value": "DualShock Controller Support",
+      "count": 1834
+    },
+    {
+      "value": "Online PvP",
+      "count": 1752
+    },
+    {
+      "value": "Partial Controller Support",
+      "count": 1702
+    },
+    {
+      "value": "DualSense Controller Support",
+      "count": 1674
+    },
+    {
+      "value": "Online Co-op",
+      "count": 1490
+    },
+    {
+      "value": "Steam Leaderboards",
+      "count": 1249
+    },
+    {
+      "value": "Remote Play Together",
+      "count": 1067
+    },
+    {
+      "value": "Remote Play on TV",
+      "count": 1004
+    },
+    {
+      "value": "Shared/Split Screen",
+      "count": 921
+    },
+    {
+      "value": "Steam Workshop",
+      "count": 918
+    },
+    {
+      "value": "In-App Purchases",
+      "count": 847
+    }
+  ],
+  "releaseYearDist": [
+    {
+      "value": 1997,
+      "count": 2
+    },
+    {
+      "value": 1998,
+      "count": 1
+    },
+    {
+      "value": 1999,
+      "count": 3
+    },
+    {
+      "value": 2000,
+      "count": 2
+    },
+    {
+      "value": 2001,
+      "count": 4
+    },
+    {
+      "value": 2002,
+      "count": 1
+    },
+    {
+      "value": 2003,
+      "count": 2
+    },
+    {
+      "value": 2004,
+      "count": 5
+    },
+    {
+      "value": 2005,
+      "count": 4
+    },
+    {
+      "value": 2006,
+      "count": 41
+    },
+    {
+      "value": 2007,
+      "count": 78
+    },
+    {
+      "value": 2008,
+      "count": 92
+    },
+    {
+      "value": 2009,
+      "count": 159
+    },
+    {
+      "value": 2010,
+      "count": 128
+    },
+    {
+      "value": 2011,
+      "count": 164
+    },
+    {
+      "value": 2012,
+      "count": 239
+    },
+    {
+      "value": 2013,
+      "count": 327
+    },
+    {
+      "value": 2014,
+      "count": 655
+    },
+    {
+      "value": 2015,
+      "count": 768
+    },
+    {
+      "value": 2016,
+      "count": 942
+    },
+    {
+      "value": 2017,
+      "count": 829
+    },
+    {
+      "value": 2018,
+      "count": 727
+    },
+    {
+      "value": 2019,
+      "count": 694
+    },
+    {
+      "value": 2020,
+      "count": 871
+    },
+    {
+      "value": 2021,
+      "count": 837
+    },
+    {
+      "value": 2022,
+      "count": 671
+    },
+    {
+      "value": 2023,
+      "count": 699
+    },
+    {
+      "value": 2024,
+      "count": 685
+    },
+    {
+      "value": 2025,
+      "count": 266
+    },
+    {
+      "value": 2026,
+      "count": 53
+    }
+  ],
+  "pricingByYear": [
+    {
+      "year": 2006,
+      "titles": 41,
+      "freeShare": 0.024,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 7.86
+    },
+    {
+      "year": 2007,
+      "titles": 78,
+      "freeShare": 0.179,
+      "medianPriceUsd": 3.37,
+      "meanPriceUsd": 5.36
+    },
+    {
+      "year": 2008,
+      "titles": 92,
+      "freeShare": 0.185,
+      "medianPriceUsd": 3.99,
+      "meanPriceUsd": 6.94
+    },
+    {
+      "year": 2009,
+      "titles": 159,
+      "freeShare": 0.132,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 7.1
+    },
+    {
+      "year": 2010,
+      "titles": 128,
+      "freeShare": 0.109,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 7.58
+    },
+    {
+      "year": 2011,
+      "titles": 164,
+      "freeShare": 0.14,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 7.91
+    },
+    {
+      "year": 2012,
+      "titles": 239,
+      "freeShare": 0.163,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 6.99
+    },
+    {
+      "year": 2013,
+      "titles": 327,
+      "freeShare": 0.119,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 8.71
+    },
+    {
+      "year": 2014,
+      "titles": 655,
+      "freeShare": 0.163,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 8.11
+    },
+    {
+      "year": 2015,
+      "titles": 768,
+      "freeShare": 0.254,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 7.86
+    },
+    {
+      "year": 2016,
+      "titles": 942,
+      "freeShare": 0.224,
+      "medianPriceUsd": 3.99,
+      "meanPriceUsd": 7.51
+    },
+    {
+      "year": 2017,
+      "titles": 829,
+      "freeShare": 0.279,
+      "medianPriceUsd": 4.99,
+      "meanPriceUsd": 9.61
+    },
+    {
+      "year": 2018,
+      "titles": 727,
+      "freeShare": 0.304,
+      "medianPriceUsd": 7.99,
+      "meanPriceUsd": 11.8
+    },
+    {
+      "year": 2019,
+      "titles": 694,
+      "freeShare": 0.317,
+      "medianPriceUsd": 8.99,
+      "meanPriceUsd": 12.45
+    },
+    {
+      "year": 2020,
+      "titles": 871,
+      "freeShare": 0.317,
+      "medianPriceUsd": 7.49,
+      "meanPriceUsd": 12.43
+    },
+    {
+      "year": 2021,
+      "titles": 837,
+      "freeShare": 0.204,
+      "medianPriceUsd": 6.99,
+      "meanPriceUsd": 10.69
+    },
+    {
+      "year": 2022,
+      "titles": 671,
+      "freeShare": 0.124,
+      "medianPriceUsd": 8.99,
+      "meanPriceUsd": 13.46
+    },
+    {
+      "year": 2023,
+      "titles": 699,
+      "freeShare": 0.099,
+      "medianPriceUsd": 8.99,
+      "meanPriceUsd": 13.32
+    },
+    {
+      "year": 2024,
+      "titles": 685,
+      "freeShare": 0.077,
+      "medianPriceUsd": 9.99,
+      "meanPriceUsd": 14.82
+    },
+    {
+      "year": 2025,
+      "titles": 266,
+      "freeShare": 0.038,
+      "medianPriceUsd": 13.87,
+      "meanPriceUsd": 17.13
+    },
+    {
+      "year": 2026,
+      "titles": 53,
+      "freeShare": 0.075,
+      "medianPriceUsd": 17.99,
+      "meanPriceUsd": 18.55
+    }
+  ],
+  "platformByYear": [
+    {
+      "year": 2006,
+      "linuxShare": 0.268,
+      "macShare": 0.366
+    },
+    {
+      "year": 2007,
+      "linuxShare": 0.038,
+      "macShare": 0.09
+    },
+    {
+      "year": 2008,
+      "linuxShare": 0.065,
+      "macShare": 0.076
+    },
+    {
+      "year": 2009,
+      "linuxShare": 0.138,
+      "macShare": 0.258
+    },
+    {
+      "year": 2010,
+      "linuxShare": 0.18,
+      "macShare": 0.281
+    },
+    {
+      "year": 2011,
+      "linuxShare": 0.183,
+      "macShare": 0.268
+    },
+    {
+      "year": 2012,
+      "linuxShare": 0.297,
+      "macShare": 0.423
+    },
+    {
+      "year": 2013,
+      "linuxShare": 0.44,
+      "macShare": 0.514
+    },
+    {
+      "year": 2014,
+      "linuxShare": 0.331,
+      "macShare": 0.432
+    },
+    {
+      "year": 2015,
+      "linuxShare": 0.359,
+      "macShare": 0.47
+    },
+    {
+      "year": 2016,
+      "linuxShare": 0.308,
+      "macShare": 0.419
+    },
+    {
+      "year": 2017,
+      "linuxShare": 0.267,
+      "macShare": 0.378
+    },
+    {
+      "year": 2018,
+      "linuxShare": 0.209,
+      "macShare": 0.355
+    },
+    {
+      "year": 2019,
+      "linuxShare": 0.161,
+      "macShare": 0.303
+    },
+    {
+      "year": 2020,
+      "linuxShare": 0.146,
+      "macShare": 0.276
+    },
+    {
+      "year": 2021,
+      "linuxShare": 0.152,
+      "macShare": 0.257
+    },
+    {
+      "year": 2022,
+      "linuxShare": 0.119,
+      "macShare": 0.192
+    },
+    {
+      "year": 2023,
+      "linuxShare": 0.102,
+      "macShare": 0.187
+    },
+    {
+      "year": 2024,
+      "linuxShare": 0.107,
+      "macShare": 0.199
+    },
+    {
+      "year": 2025,
+      "linuxShare": 0.102,
+      "macShare": 0.192
+    },
+    {
+      "year": 2026,
+      "linuxShare": 0.151,
+      "macShare": 0.226
+    }
+  ],
+  "reviewByGenre": [
+    {
+      "genre": "Indie",
+      "titles": 5912,
+      "medianReviewScore": 1,
+      "freeShare": 0.187
+    },
+    {
+      "genre": "Action",
+      "titles": 4825,
+      "medianReviewScore": 0.817,
+      "freeShare": 0.197
+    },
+    {
+      "genre": "Adventure",
+      "titles": 4088,
+      "medianReviewScore": 1,
+      "freeShare": 0.158
+    },
+    {
+      "genre": "RPG",
+      "titles": 2520,
+      "medianReviewScore": 1,
+      "freeShare": 0.19
+    },
+    {
+      "genre": "Casual",
+      "titles": 2506,
+      "medianReviewScore": 1,
+      "freeShare": 0.237
+    },
+    {
+      "genre": "Strategy",
+      "titles": 2498,
+      "medianReviewScore": 1,
+      "freeShare": 0.199
+    },
+    {
+      "genre": "Simulation",
+      "titles": 2258,
+      "medianReviewScore": 1,
+      "freeShare": 0.18
+    },
+    {
+      "genre": "Free To Play",
+      "titles": 1325,
+      "medianReviewScore": 0.771,
+      "freeShare": 0.983
+    },
+    {
+      "genre": "Massively Multiplayer",
+      "titles": 576,
+      "medianReviewScore": 1,
+      "freeShare": 0.727
+    },
+    {
+      "genre": "Early Access",
+      "titles": 568,
+      "medianReviewScore": 1,
+      "freeShare": 0.29
+    },
+    {
+      "genre": "Sports",
+      "titles": 428,
+      "medianReviewScore": 1,
+      "freeShare": 0.371
+    },
+    {
+      "genre": "Racing",
+      "titles": 372,
+      "medianReviewScore": 1,
+      "freeShare": 0.263
+    },
+    {
+      "genre": "Utilities",
+      "titles": 87,
+      "medianReviewScore": 0.801,
+      "freeShare": 0.471
+    },
+    {
+      "genre": "Design & Illustration",
+      "titles": 41,
+      "medianReviewScore": 0.823,
+      "freeShare": 0.415
+    },
+    {
+      "genre": "Animation & Modeling",
+      "titles": 40,
+      "medianReviewScore": 1,
+      "freeShare": 0.6
+    },
+    {
+      "genre": "Video Production",
+      "titles": 31,
+      "medianReviewScore": 0.781,
+      "freeShare": 0.581
+    },
+    {
+      "genre": "Game Development",
+      "titles": 23,
+      "medianReviewScore": 0.85,
+      "freeShare": 0.435
+    },
+    {
+      "genre": "Web Publishing",
+      "titles": 23,
+      "medianReviewScore": 0.858,
+      "freeShare": 0.391
+    },
+    {
+      "genre": "Education",
+      "titles": 20,
+      "medianReviewScore": 1,
+      "freeShare": 0.35
+    }
+  ],
+  "ownershipConcentration": {
+    "totalEstimatedOwners": 9224025000,
+    "top1pctShare": 0.329,
+    "top5pctShare": 0.5363,
+    "top10pctShare": 0.6506,
+    "top25pctShare": 0.8073
+  },
+  "pulledRecords": 10000,
+  "reportedTotal": 10908
+}

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Steam Catalog Dataset — State of Steam 2026"
+authors:
+  - name: "Crawlora"
+year: 2026
+url: "https://github.com/Crawlora-org/steam-catalog-data"
+license: CC-BY-4.0
