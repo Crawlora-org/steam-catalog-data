@@ -1,10 +1,10 @@
 # Steam Catalog Dataset — State of Steam 2026
 
-Open aggregate data behind [**The State of Steam 2026**](https://crawlora.net/blog/state-of-steam-2026),
+Open aggregate data behind [**The State of Steam 2026**](https://crawlora.net/blog/state-of-steam-2026?utm_source=github&utm_medium=referral&utm_campaign=state-of-steam-2026),
 a study of the **top 10,000 Steam games by owner estimate**. Every field is a public storefront /
 third-party-estimate fact — no personal data.
 
-Built by [Crawlora](https://crawlora.net) by dogfooding its own APIs: the game universe is seeded from
+Built by [Crawlora](https://crawlora.net?utm_source=github&utm_medium=referral&utm_campaign=state-of-steam-2026) by dogfooding its own APIs: the game universe is seeded from
 SteamSpy's owner-ranked `all` pages and enriched with the public Steam storefront (`appdetails`). The full
 dataset is queryable live at `https://api.crawlora.net/api/v1/datasets/steam-games/search` (and via the
 `datasets_steam_games_*` MCP tools).
